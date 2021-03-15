@@ -1,5 +1,4 @@
 // rollup.config.js
-//import typescript from '@rollup/plugin-typescript';
 
 export default {
   input: 'dist/index.js',
@@ -11,5 +10,4 @@ export default {
     file: 'main.common.js',
     format: 'cjs',
   }],
-  //plugins: [typescript()],
 };
