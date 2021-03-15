@@ -1,0 +1,19 @@
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.npmrc
+node_modules
+
+# TypeScript
+/src/**/*.js
+
+# Packaging
+/dist
+/types
+/*.common.js
+/*.es.js

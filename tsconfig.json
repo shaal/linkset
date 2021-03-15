@@ -1,0 +1,15 @@
+{
+  "include": ["./src/**/*.ts"],
+  "exclude": [
+    "./src/**/*.test.ts"
+  ],
+  "compilerOptions": {
+    "target": "esnext",
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationDir": "./types",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "types": ["jest", "node"]
+  }
+}
