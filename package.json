@@ -1,9 +1,9 @@
 {
-  "name": "@drupal/linkset",
+  "name": "linkset",
   "homepage": "https://www.drupal.org/project/linkset",
   "repository": "https://git.drupalcode.org/project/linkset.git",
   "license": "GPL-2.0-or-later",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./dist/index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc -b tsconfig.json",
