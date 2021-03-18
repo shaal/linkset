@@ -4,11 +4,10 @@
     "./src/**/*.test.ts"
   ],
   "compilerOptions": {
-    "target": "es6",
+    "target": "es5",
     "module": "umd",
     "outDir": "./dist",
     "declaration": true,
-    "declarationDir": "./types",
     "esModuleInterop": true,
     "moduleResolution": "node",
     "types": ["jest", "node"]
