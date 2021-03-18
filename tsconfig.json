@@ -5,7 +5,7 @@
   ],
   "compilerOptions": {
     "target": "es5",
-    "module": "umd",
+    "module": "commonjs",
     "outDir": "./dist",
     "declaration": true,
     "esModuleInterop": true,
