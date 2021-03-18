@@ -4,11 +4,10 @@
   "repository": "https://git.drupalcode.org/project/linkset.git",
   "license": "GPL-2.0-or-later",
   "version": "0.0.0",
-  "main": "main.common.js",
-  "module": "main.es.js",
+  "main": "./dist/index.js",
   "types": "./types/index.d.ts",
   "scripts": {
-    "build": "rimraf ./dist ./types && tsc && rollup -c ./rollup.config.js && rimraf ./dist",
+    "build": "rimraf ./dist ./types && tsc -b tsconfig.json",
     "lint": "eslint . --ext .ts --max-warnings=0 --ignore-path=.gitignore",
     "test": "jest"
   },
