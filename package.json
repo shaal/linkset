@@ -1,14 +1,14 @@
 {
-  "name": "linkset",
+  "name": "@drupal/linkset",
   "homepage": "https://www.drupal.org/project/linkset",
   "repository": "https://git.drupalcode.org/project/linkset.git",
   "license": "GPL-2.0-or-later",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "main": "./dist/index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc -b tsconfig.json",
     "lint": "eslint . --ext .ts --max-warnings=0 --ignore-path=.gitignore",
-    "test": "jest"
+    "test": "jest --runInBand"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
@@ -35,5 +35,6 @@
       "plugin:@typescript-eslint/recommended",
       "prettier"
     ]
-  }
+  },
+  "packageManager": "yarn@3.2.4"
 }

@@ -1,11 +1,11 @@
 # Yarn
 .yarn/*
+!.yarn/cache
 !.yarn/patches
 !.yarn/releases
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
-.pnp.*
 .npmrc
 node_modules
 
