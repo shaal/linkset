@@ -3,12 +3,13 @@
   "homepage": "https://www.drupal.org/project/linkset",
   "repository": "https://git.drupalcode.org/project/linkset.git",
   "license": "GPL-2.0-or-later",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "main": "./dist/index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc -b tsconfig.json",
     "lint": "eslint . --ext .ts --max-warnings=0 --ignore-path=.gitignore",
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
+    "publish": "yarn build && npm publish"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
