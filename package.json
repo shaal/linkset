@@ -1,5 +1,5 @@
 {
-  "name": "@drupal/linkset",
+  "name": "linkset-es6",
   "homepage": "https://www.drupal.org/project/linkset",
   "repository": "https://git.drupalcode.org/project/linkset.git",
   "license": "GPL-2.0-or-later",
